@@ -1,12 +1,12 @@
 {
   "input": "./gallery",
   "output": "./build_output",
-  "title": "Photo Gallery",
+  "title": "Shan's Photo Gallery",
   "sort-albums-by": "title",
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
-  "theme": "cards",
+  "theme": "classic",
   "theme-style": "./custom.css",
   "footer": "All rights reserved. Shan Jiang 2021",
   "usage-stats": false
