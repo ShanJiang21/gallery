@@ -61,7 +61,7 @@ You can learn more about the configuration file here: https://thumbsup.github.io
 ![selectmedia](https://media.giphy.com/media/2uIfenjYx5anbQOEAo/giphy.gif)
 
 #### Finding your website URL
-If you had done all the above steps then your website will be live now. Please check Github Actions tab in your repository for the sttaus of the
+If you had done all the above steps then your website will be live now. Please check Github Actions tab in your repository for the status of the
 deployment.  Once it is done, Go to settings tab again and scroll down to the Github Pages section to find your public gallery URL.
 
 ![url](https://user-images.githubusercontent.com/8397274/48008065-f639b880-e13e-11e8-9f8e-72d27ad7cc30.png)
