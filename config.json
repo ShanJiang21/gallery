@@ -8,6 +8,6 @@
   "cleanup": true,
   "theme": "cards",
   "theme-style": "./custom.css",
-  "footer": "Copyright Text",
+  "footer": "All rights reserved. Shan Jiang 2021",
   "usage-stats": false
 }
