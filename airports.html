@@ -6,82 +6,88 @@
       <meta name="viewport" content="width=device-width, user-scalable=no" />
       <title>Shan&#x27;s Photo Gallery - airports</title>
       <link rel="stylesheet" href="public/lightgallery/css/lightgallery.css" />
-      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/videojs/video-js.min.css" />
+      <link rel="stylesheet" href="public/lightgallery/css/lg-exif.min.css" />
       <link rel="stylesheet" href="public/core.css" />
       <link rel="stylesheet" href="public/theme.css" />
   </head>
 
   <body>
 
-    <header>
-      <a href="index.html">
-        <h1>Shan&#x27;s Photo Gallery</h1>
-      </a>
-    </header>
     
-    <!--
-      Breadcrumbs of parent albums
-    -->
+    <div id="container">
+    
+      <!--
+        Gallery title
+      -->
+      <header>
+        <h1><a href="index.html">Shan&#x27;s Photo Gallery</a></h1>
+      </header>
+    
+      <!--
+        Breadcrumbs of parent albums
+      -->
       <nav class="breadcrumbs">
-    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;<a class="breadcrumb-item" href="airports.html">airports</a>
+    <a class="breadcrumb-item" href="index.html">Home</a>&nbsp;/&nbsp;<a class="breadcrumb-item" href="airports.html">airports</a>
       </nav>
     
-    <!--
-      Nested albums
-    -->
-    <ul id="galleries">
-    </ul>
+      <!--
+        Nested albums, if any
+      -->
+      <div id="albums">
+      </div>
     
-    <!--
-      Render all thumbnails
-    -->
-    <ul id="media">
-        
-          <li data-src="media/large/airports/IMG_7121.JPG"
-              data-sub-html=""
-              data-download-url="media/original/airports/IMG_7121.JPG"
-              
-              data-filename="IMG_7121.JPG"
-        
-            >
-            <a href="media/original/airports/IMG_7121.JPG">
-              <img src="media/thumbs/airports/IMG_7121.JPG"
-                   width="120"
-                   height="120"
-                   alt="IMG_7121.JPG" />
-            </a>
-          </li>    
-          <li data-src="media/large/airports/road_sunset2.jpg"
-              data-sub-html=""
-              data-download-url="media/original/airports/road_sunset2.jpg"
-              
-              data-filename="road_sunset2.jpg"
-        
-            >
-            <a href="media/original/airports/road_sunset2.jpg">
-              <img src="media/thumbs/airports/road_sunset2.jpg"
-                   width="120"
-                   height="120"
-                   alt="road_sunset2.jpg" />
-            </a>
-          </li></ul>
+      <!--
+        All photos and videos
+      -->
+      <ul id="media" class="clearfix">
+          
+            <li data-src="media/large/airports/IMG_7121.JPG"
+                data-sub-html=""
+                data-download-url="media/original/airports/IMG_7121.JPG"
+                
+                data-filename="IMG_7121.JPG"
+          
+              >
+              <a href="media/original/airports/IMG_7121.JPG">
+                <img src="media/thumbs/airports/IMG_7121.JPG"
+                     width="120"
+                     height="120"
+                     alt="IMG_7121.JPG" />
+              </a>
+            </li>      
+            <li data-src="media/large/airports/road_sunset2.jpg"
+                data-sub-html=""
+                data-download-url="media/original/airports/road_sunset2.jpg"
+                
+                data-filename="road_sunset2.jpg"
+          
+              >
+              <a href="media/original/airports/road_sunset2.jpg">
+                <img src="media/thumbs/airports/road_sunset2.jpg"
+                     width="120"
+                     height="120"
+                     alt="road_sunset2.jpg" />
+              </a>
+            </li>  </ul>
     
-    <!--
-      Pagination
-    -->
+      <!--
+        Pagination
+      -->
     
-    <!--
-      Zip file link
-    -->
+      <!--
+        Zip file link
+      -->
     
     
-    <!--
-      Optional footer
-    -->
-    <footer>
-      <p>All rights reserved. Shan Jiang 2021</p>
-    </footer>
+      <!--
+        Optional footer
+      -->
+      <footer>
+        <p>All rights reserved. Shan Jiang 2023</p>
+      </footer>
+    
+    </div>
     <!-- Video loader -->
     <div id="videos">
     </div>
