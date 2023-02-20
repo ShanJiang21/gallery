@@ -6,7 +6,7 @@
   "sort-media-by": "filename",
   "download-photos": "copy",
   "cleanup": true,
-  "theme": "classic",
+  "theme": "cards",
   "theme-style": "./custom.css",
   "footer": "All rights reserved. Shan Jiang 2023",
   "usage-stats": false
